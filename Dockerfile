@@ -7,8 +7,6 @@ COPY mvn-download/* .
 
 RUN go build
 
-RUN go build
-
 FROM node:8.16.1-alpine
 
 RUN apk update \
